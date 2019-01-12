@@ -417,39 +417,6 @@ F 3 "" H 2950 7000 50  0001 C CNN
 	1    2950 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L device:C C44
-U 1 1 5A8B37DE
-P 3350 7000
-F 0 "C44" H 3465 7046 50  0000 L CNN
-F 1 "10uF" H 3465 6955 50  0000 L CNN
-F 2 "custom:C_0805" H 3388 6850 50  0001 C CNN
-F 3 "" H 3350 7000 50  0001 C CNN
-	1    3350 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:C C48
-U 1 1 5A8B37EC
-P 4150 7000
-F 0 "C48" H 4265 7046 50  0000 L CNN
-F 1 "10uF" H 4265 6955 50  0000 L CNN
-F 2 "custom:C_0805" H 4188 6850 50  0001 C CNN
-F 3 "" H 4150 7000 50  0001 C CNN
-	1    4150 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:C C50
-U 1 1 5A8B37F3
-P 4550 7000
-F 0 "C50" H 4665 7046 50  0000 L CNN
-F 1 "10uF" H 4665 6955 50  0000 L CNN
-F 2 "custom:C_0805" H 4588 6850 50  0001 C CNN
-F 3 "" H 4550 7000 50  0001 C CNN
-	1    4550 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 6350 1750 6350
 Connection ~ 1750 6350
@@ -474,26 +441,12 @@ Wire Wire Line
 Connection ~ 2550 6850
 Wire Wire Line
 	2550 6850 2950 6850
-Connection ~ 2950 6850
-Wire Wire Line
-	2950 6850 3350 6850
-Connection ~ 3350 6850
-Connection ~ 4150 6850
-Wire Wire Line
-	4150 6850 4550 6850
 Connection ~ 2150 7150
 Wire Wire Line
 	2150 7150 2550 7150
 Connection ~ 2550 7150
 Wire Wire Line
 	2550 7150 2950 7150
-Connection ~ 2950 7150
-Wire Wire Line
-	2950 7150 3350 7150
-Connection ~ 3350 7150
-Connection ~ 4150 7150
-Wire Wire Line
-	4150 7150 4550 7150
 Text GLabel 900  6750 0    60   Input ~ 0
 GND
 Text GLabel 1000 6200 0    60   Input ~ 0
@@ -531,17 +484,6 @@ F 3 "" H 1800 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C46
-U 1 1 5AB1AA62
-P 3750 7000
-F 0 "C46" H 3865 7046 50  0000 L CNN
-F 1 "10uF" H 3865 6955 50  0000 L CNN
-F 2 "custom:C_0805" H 3788 6850 50  0001 C CNN
-F 3 "" H 3750 7000 50  0001 C CNN
-	1    3750 7000
-	1    0    0    -1  
-$EndComp
-$Comp
 L device:C C41
 U 1 1 5AB1CD86
 P 2950 6500
@@ -552,27 +494,6 @@ F 3 "" H 2950 6500 50  0001 C CNN
 	1    2950 6500
 	1    0    0    -1  
 $EndComp
-$Comp
-L device:C C45
-U 1 1 5AB1F0B5
-P 3350 6500
-F 0 "C45" H 3465 6546 50  0000 L CNN
-F 1 "10uF" H 3465 6455 50  0000 L CNN
-F 2 "custom:C_0805" H 3388 6350 50  0001 C CNN
-F 3 "" H 3350 6500 50  0001 C CNN
-	1    3350 6500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3350 6850 3750 6850
-Connection ~ 3750 6850
-Wire Wire Line
-	3750 6850 4150 6850
-Wire Wire Line
-	3350 7150 3750 7150
-Connection ~ 3750 7150
-Wire Wire Line
-	3750 7150 4150 7150
 Wire Wire Line
 	1350 7150 1800 7150
 Connection ~ 1800 7150
@@ -585,12 +506,6 @@ Wire Wire Line
 	1800 6850 2150 6850
 Wire Wire Line
 	2550 6350 2950 6350
-Connection ~ 2950 6350
 Wire Wire Line
 	2550 6650 2950 6650
-Connection ~ 2950 6650
-Wire Wire Line
-	2950 6350 3350 6350
-Wire Wire Line
-	2950 6650 3350 6650
 $EndSCHEMATC

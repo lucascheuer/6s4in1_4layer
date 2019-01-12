@@ -256,7 +256,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 1700 3050 2550
 Wire Wire Line
-	3350 1700 3350 2550
+	3350 1700 3350 2300
 Wire Wire Line
 	3050 4250 3050 3850
 Wire Wire Line
@@ -375,7 +375,6 @@ HIGH_C
 Text Label 7300 1550 0    50   ~ 0
 LOW_C
 NoConn ~ 2450 3450
-NoConn ~ 3250 2550
 $Comp
 L 6sESC:NTLUD4C26N Q1
 U 1 1 5A827F39
@@ -995,4 +994,41 @@ Text Label 6300 2600 0    50   ~ 0
 BST_B
 Text Label 6300 4400 0    50   ~ 0
 BST_A
+$Comp
+L 6sESC:Pad P24
+U 1 1 5C39FB60
+P 3700 2300
+AR Path="/5A7E1D64/5C39FB60" Ref="P24"  Part="1" 
+AR Path="/5A7C60B8/5C39FB60" Ref="P26"  Part="1" 
+AR Path="/5A7C7635/5C39FB60" Ref="P28"  Part="1" 
+AR Path="/5A7C8234/5C39FB60" Ref="P30"  Part="1" 
+F 0 "P24" H 3828 2300 60  0000 L CNN
+F 1 "Pad" H 3700 2050 60  0001 C CNN
+F 2 "custom:FlashPad" H 3700 2300 60  0001 C CNN
+F 3 "" H 3700 2300 60  0001 C CNN
+	1    3700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2300 3350 2300
+Connection ~ 3350 2300
+Wire Wire Line
+	3350 2300 3350 2550
+$Comp
+L 6sESC:Pad P23
+U 1 1 5C3A7C3C
+P 3250 1500
+AR Path="/5A7E1D64/5C3A7C3C" Ref="P23"  Part="1" 
+AR Path="/5A7C60B8/5C3A7C3C" Ref="P25"  Part="1" 
+AR Path="/5A7C7635/5C3A7C3C" Ref="P27"  Part="1" 
+AR Path="/5A7C8234/5C3A7C3C" Ref="P29"  Part="1" 
+F 0 "P23" V 3194 1372 60  0000 R CNN
+F 1 "Pad" H 3250 1250 60  0001 C CNN
+F 2 "custom:FlashPad" H 3250 1500 60  0001 C CNN
+F 3 "" H 3250 1500 60  0001 C CNN
+	1    3250 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 2550 3250 1700
 $EndSCHEMATC

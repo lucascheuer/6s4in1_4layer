@@ -1,4 +1,4 @@
-update=12/18/2018 5:40:57 PM
+update=1/11/2019 9:22:45 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -12,7 +12,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=6s4in1BSTNAMED.net
+LastNetListRead=6s4in1Flash.net
 PadDrill=0
 PadDrillOvalY=0
 PadSizeH=1
